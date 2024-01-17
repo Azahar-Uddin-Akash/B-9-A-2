@@ -157,10 +157,12 @@ a {
     margin: 30px;
 }
 
-.tours-text>ul>li {
+.tours-text > ul >li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 10px;
+
 }
 
 /* your destination */
@@ -686,3 +688,96 @@ footer{
     margin-top: 100px;
 }
 /* footer section style end */
+
+
+
+/* Tablet Size Devices Responsive */
+@media screen and (min-width: 600px) and (max-width: 982px){
+    /* nav section start */
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .option{
+        display: none;
+    }  
+    .nav-option{
+        display: block;
+    }
+    .logo_title h2{
+        font-size: 35px;
+    }
+    .logo_title img{
+        width: 50px;
+    }
+    .nave_title{
+        margin-top: 35px;
+        padding: 0px 20px 0px 15px;
+    }
+    .nav_page{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* nav section end */
+
+    /* Banner Section style start */
+    .banner_text h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .banner_text p{
+        font-size: 18px;
+    }
+    .banner_area{
+        padding-top: 50px;
+    }
+    .banner_text{
+        width: 100%;
+        padding: 5px;
+    }
+    .banner_input{
+        flex-direction: column;
+    }
+    .input_field{
+        width: 265px;
+        font-size: 16px;
+    }
+    .banner_area{
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 600px;
+        background-position: bottom;
+    }
+    .pm_button{
+        width: 265px;
+    }
+    /* Banner Section style start */
+
+    /* popular tours style start*/
+        .popularTours{
+            flex-direction: column;
+            gap: 40px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .tours-text{
+            width: 100%;
+            
+        }
+        .popularTours_img img{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(1 , 1fr);
+            
+        }
+        .ptours-text h1{
+            font-size: 35px;
+        }
+        .tours-text p{
+            font-size: 16px;
+        }
+        /*popular tours style end */
+}
