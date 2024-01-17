@@ -6,17 +6,19 @@
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
     text-decoration: none;
+    
 
 }
 
 /* shared style start */
-.nav_banner-container
- {
+.nav_banner-container {
     max-width: 1440px;
-    padding: 0 150px;
+    margin: 0 auto;
 }
-.pm_button{
+
+.pm_button {
     border: none;
     height: 50px;
     width: 170px;
@@ -65,7 +67,7 @@ a {
 
 /* naveber style end */
 /* banner style start */
-.banner_content{
+.banner_content {
     height: 620px;
     margin: 70px 100px;
     border-radius: 15px;
@@ -76,24 +78,26 @@ a {
 
 }
 
-.banner_text h1{
+.banner_text h1 {
     font-weight: 800;
     color: #FFF;
     font-size: 72px;
     margin-bottom: 30px;
 }
-.banner_text p{
+
+.banner_text p {
     font-weight: 400;
     margin-bottom: 50px;
     font-size: 18px;
     color: #FFF;
 }
+
 .banner_area {
     text-align: center;
     padding-top: 160px
-
 }
-.banner_input{
+
+.banner_input {
     padding: 15px;
     display: inline-flex;
     background: rgba(218, 209, 209, 0.468);
@@ -101,7 +105,8 @@ a {
     border-radius: 5px;
     gap: 20px;
 }
-.input_field{
+
+.input_field {
     width: 174px;
     height: 52px;
     padding: px;
@@ -111,4 +116,202 @@ a {
     color: rgba(19, 19, 24, 0.50);
     font-size: 18px;
     font-weight: 400;
+}
+
+/* popular setion style start */
+.popularTours-container{
+    display: flex;
+    margin-top: 80;
+    padding: 0 100px;
+    justify-content: space-between;
+    
+}
+.tours-texts{
+    width: 50%;
+    
+}
+.tours-text h1 {
+    margin-bottom: 28px;
+    color: #131318d0;
+    font-size: 42px;
+    font-weight: 500;
+}
+.read_button{
+    padding: 40px;
+}
+
+.tours-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+.tours-text > ul{
+    padding: 20px;
+    margin: 30px;
+} 
+.tours-text > ul > li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+}
+/* your destination */
+/* .u_destination-text{
+    margin-top: 70px;
+}
+.u_destination-tex{
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+.u_destination-text h1{
+    color: #212020;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.u_destination-text p{
+    color: rgba(25, 25, 30, 0.7);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.imaegec{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.imaegec h5{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+}
+.image_area{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+}
+.image_area img{
+    width: 100%;
+    height: auto;
+}
+.maldiv{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.indonesia{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.kasmir{
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+.amerika{
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+.srilanka{
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+.bd{
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+    
+}
+.bandarban{
+    grid-column: 6/span 7;
+} */
+#iteam{
+    margin-top: 80px;
+}
+.iteam-grid h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.iteam-grid p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.iteam-grid{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+#immages{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#immages h4{
+    position: absolute;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-area{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+    
+
+}
+.image-area img{
+    width: 100%;
+    height: auto;
+    
+}
+.maldiv{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+
+.indonesia{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.srilanka{
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+.amerika{
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+.kasmir{
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+.bd{
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+    
+}
+.bandarban{
+    grid-column: 6/span 7;
+
 }
