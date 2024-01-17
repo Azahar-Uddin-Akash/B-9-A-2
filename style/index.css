@@ -1,8 +1,114 @@
 /* Mulish font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1000&display=swap');
+
 /* common css start*/
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
+    text-decoration: none;
+
+}
+
+/* shared style start */
+.nav_banner-container
+ {
+    max-width: 1440px;
+    padding: 0 150px;
+}
+.pm_button{
+    border: none;
+    height: 50px;
+    width: 170px;
+    background: #FF5400;
+    border-radius: 5px;
+}
+
+/* shared style end */
+/* naveber style start */
+.nave_title {
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo_title {
+    display: flex;
+}
+
+.nav_page {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_page>li {
+    list-style: none;
+
+}
+
+.nav_page>a {
+    text-decoration: none;
+
+}
+
+nav,
+.navpage,
+a {
+    color: #424247;
+    font-size: 18px;
+}
+
+.option11 {
+    color: #FF5400;
+}
+
+/* naveber style end */
+/* banner style start */
+.banner_content{
+    height: 620px;
+    margin: 70px 100px;
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url(../images/Group1.png);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+
+
+}
+
+.banner_text h1{
+    font-weight: 800;
+    color: #FFF;
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+.banner_text p{
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #FFF;
+}
+.banner_area {
+    text-align: center;
+    padding-top: 160px
+
+}
+.banner_input{
+    padding: 15px;
+    display: inline-flex;
+    background: rgba(218, 209, 209, 0.468);
+    /* align-items: flex-start; */
+    border-radius: 5px;
+    gap: 20px;
+}
+.input_field{
+    width: 174px;
+    height: 52px;
+    padding: px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 18px;
+    font-weight: 400;
 }
