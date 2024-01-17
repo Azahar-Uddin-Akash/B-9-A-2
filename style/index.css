@@ -8,7 +8,7 @@
     font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-    
+
 
 }
 
@@ -119,24 +119,27 @@ a {
 }
 
 /* popular setion style start */
-.popularTours-container{
+.popularTours-container {
     display: flex;
     margin-top: 80;
     padding: 0 100px;
     justify-content: space-between;
-    
+
 }
-.tours-texts{
+
+.tours-texts {
     width: 50%;
-    
+
 }
+
 .tours-text h1 {
     margin-bottom: 28px;
     color: #131318d0;
     font-size: 42px;
     font-weight: 500;
 }
-.read_button{
+
+.read_button {
     padding: 40px;
 }
 
@@ -148,15 +151,18 @@ a {
     margin-bottom: 15px;
     padding: 0 10px;
 }
-.tours-text > ul{
+
+.tours-text>ul {
     padding: 20px;
     margin: 30px;
-} 
-.tours-text > ul > li{
+}
+
+.tours-text>ul>li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 20px;
     font-weight: 400;
 }
+
 /* your destination */
 /* .u_destination-text{
     margin-top: 70px;
@@ -233,27 +239,31 @@ a {
 .bandarban{
     grid-column: 6/span 7;
 } */
-#iteam{
+#iteam {
     margin-top: 80px;
 }
-.iteam-grid h1{
+
+.iteam-grid h1 {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 25px;
 }
-.iteam-grid p{
+
+.iteam-grid p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 40px;
 }
-.iteam-grid{
+
+.iteam-grid {
     max-width: 650px;
     text-align: center;
     margin: 0 auto;
 }
-#immages{
+
+#immages {
     width: 100%;
     height: fit-content;
     position: relative;
@@ -263,7 +273,8 @@ a {
     justify-content: center;
     text-align: center;
 }
-#immages h4{
+
+#immages h4 {
     position: absolute;
     margin-top: 10px;
     color: #FFF;
@@ -271,95 +282,110 @@ a {
     font-weight: 800;
 }
 
-.image-area{
+.image-area {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     margin: 10px;
-    
+
 
 }
-.image-area img{
+
+.image-area img {
     width: 100%;
     height: auto;
-    
+
 }
-.maldiv{
+
+.maldiv {
     grid-column: 1/span 6;
     grid-row: 1/span 1;
 }
 
-.indonesia{
+.indonesia {
     grid-column: 7/span 6;
     grid-row: 1/span 1;
 }
-.srilanka{
+
+.srilanka {
     grid-column: 1/span 4;
     grid-row: 2/span 1;
 }
-.amerika{
+
+.amerika {
     grid-column: 5/span 5;
     grid-row: 2/span 1;
 }
-.kasmir{
+
+.kasmir {
     grid-column: 10/span 3;
     grid-row: 2/span 1;
 }
-.bd{
+
+.bd {
     grid-column: 1/span 5;
     grid-row: 3/span 1;
-    
+
 }
-.bandarban{
+
+.bandarban {
     grid-column: 6/span 7;
 
 }
+
 /* whhy choose us section start */
 .chooseText {
-    max-width: 672;margin: 0 auto;
+    max-width: 672;
+    margin: 0 auto;
     text-align: center;
     margin-top: 70px;
 }
-.chooseText h1{
+
+.chooseText h1 {
     font-weight: 800;
     font-size: 40px;
     margin-bottom: 35px;
 }
-.chooseText p{
+
+.chooseText p {
     color: rgba(32, 32, 38, 0.7);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
 }
-.choose-us-text{
+
+.choose-us-text {
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
     margin-top: 80px;
 }
 
-#iconcard{
+#iconcard {
     max-width: 700px;
     height: 280px;
     padding: 20px;
-    
+
 }
-#iconcard h3{
+
+#iconcard h3 {
     color: #131318;
     font-size: 28px;
     font-weight: 800;
     margin-top: 40px;
     margin-bottom: 30px;
 }
-.icon-grid{
+
+.icon-grid {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
 }
-.iconcrad1{
+
+.iconcrad1 {
     width: 100%;
     height: 100%;
     grid-column: 1/span 6;
@@ -368,7 +394,8 @@ a {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-.iconcrad2{
+
+.iconcrad2 {
     width: 100%;
     height: 100%;
     grid-column: 7/span 6;
@@ -377,7 +404,8 @@ a {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
-.iconcrad3{
+
+.iconcrad3 {
     width: 100%;
     height: 100%;
     grid-column: 4/span 6;
@@ -386,40 +414,47 @@ a {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
 /* whhy choose us section end */
 /* discounts star style */
-.p_text{
+.p_text {
     display: flex;
     gap: 30px;
-    
+
 }
-.p_text > p > i{
+
+.p_text>p>i {
     color: #FF5400;
     font-size: 20px;
     margin-right: 8px;
 }
-.p_text p{
+
+.p_text p {
     font-size: 18px;
     font-weight: 400;
 }
-#all_text h2{
+
+#all_text h2 {
     color: #131318;
     font-size: 28px;
     font-weight: 800;
     margin-bottom: 20px;
 }
-#all_text p{
+
+#all_text p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
 }
-#all_text h4{
+
+#all_text h4 {
     color: #FF5400;
     font-size: 22px;
     font-weight: 800;
     margin-bottom: 18px;
 }
-.discount-text1{
+
+.discount-text1 {
     padding: 40px;
     max-width: 600px;
     height: 400px;
@@ -432,7 +467,7 @@ a {
     left: 715px;
 }
 
-.discount-text2{
+.discount-text2 {
     padding: 40px;
     max-width: 600px;
     height: 400px;
@@ -445,7 +480,8 @@ a {
     left: 130px;
 
 }
-.discount-bg1{
+
+.discount-bg1 {
     background-image: url(../Images/Group\ 39.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -453,7 +489,8 @@ a {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.discount-bg{
+
+.discount-bg {
     background-image: url(../Images/Group\ 40.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -461,10 +498,12 @@ a {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.deals-text{
+
+.deals-text {
     margin-top: 70px;
 }
-.deals_text h1{
+
+.deals_text h1 {
     color: #131318;
     text-align: center;
     text-align: center;
@@ -472,7 +511,8 @@ a {
     font-weight: 800;
     margin-bottom: 25px;
 }
-.deals-text p{
+
+.deals-text p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 18px;
@@ -480,8 +520,70 @@ a {
     margin-bottom: 40px;
 }
 
-.bttn{
+.bttn {
     display: flex;
     justify-content: center;
 }
+
 /* discounts style end  */
+/* perfact place section style start */
+.perfact-pace {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.perfact-text h1 {
+    color: #131318;
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.perfact-text p {
+    color: #5A5A5D;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.perfact-text>ul>li {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.perfact-text>ul {
+    padding: 40px;
+}
+
+.perfact-text {
+    width: 50%;
+}
+
+.video {
+    border-radius: 16px;
+    width: 630px;
+    background: linear-gradient(180deg, #161618 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.main-video {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mountain {
+    position: absolute;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+/* perfact place section style end */
