@@ -753,37 +753,12 @@ footer{
     }
     .banner_area{
         margin-top: 40px;
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 600px;
         background-position: bottom;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 600px;
     }
     .pm_button{
         width: 265px;
     }
     /* Banner Section style end */
-
-    /* popular tours style start*/
-        .popularTours{
-            flex-direction: column;
-            gap: 40px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        .tours_text{
-            width: 100%;
-            
-        }
-        .popularTours_img img{
-            width: 100%;
-            display: grid;
-            
-        }
-        .ptours-text h1{
-            font-size: 35px;
-        }
-        .tours-text p{
-            font-size: 16px;
-        }
-        /*popular tours style end */
-}
